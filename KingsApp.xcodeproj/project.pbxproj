@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		45285D3B1E003D5B00B1F03F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45285D3A1E003D5B00B1F03F /* AppDelegate.swift */; };
+		45285D3D1E003D5B00B1F03F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45285D3C1E003D5B00B1F03F /* ViewController.swift */; };
+		45285D401E003D5B00B1F03F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45285D3E1E003D5B00B1F03F /* Main.storyboard */; };
+		45285D431E003D5B00B1F03F /* KingsApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 45285D411E003D5B00B1F03F /* KingsApp.xcdatamodeld */; };
+		45285D451E003D5B00B1F03F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45285D441E003D5B00B1F03F /* Assets.xcassets */; };
+		45285D481E003D5B00B1F03F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45285D461E003D5B00B1F03F /* LaunchScreen.storyboard */; };
+		45285D531E003D5B00B1F03F /* KingsAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45285D521E003D5B00B1F03F /* KingsAppTests.swift */; };
+		45285D5E1E003D5B00B1F03F /* KingsAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45285D5D1E003D5B00B1F03F /* KingsAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		45285D4F1E003D5B00B1F03F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45285D2F1E003D5B00B1F03F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45285D361E003D5B00B1F03F;
+			remoteInfo = KingsApp;
+		};
+		45285D5A1E003D5B00B1F03F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45285D2F1E003D5B00B1F03F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45285D361E003D5B00B1F03F;
+			remoteInfo = KingsApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		45285D371E003D5B00B1F03F /* KingsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KingsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		45285D3A1E003D5B00B1F03F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		45285D3C1E003D5B00B1F03F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		45285D3F1E003D5B00B1F03F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		45285D421E003D5B00B1F03F /* KingsApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = KingsApp.xcdatamodel; sourceTree = "<group>"; };
+		45285D441E003D5B00B1F03F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		45285D471E003D5B00B1F03F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		45285D491E003D5B00B1F03F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45285D4E1E003D5B00B1F03F /* KingsAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KingsAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		45285D521E003D5B00B1F03F /* KingsAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KingsAppTests.swift; sourceTree = "<group>"; };
+		45285D541E003D5B00B1F03F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45285D591E003D5B00B1F03F /* KingsAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KingsAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		45285D5D1E003D5B00B1F03F /* KingsAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KingsAppUITests.swift; sourceTree = "<group>"; };
+		45285D5F1E003D5B00B1F03F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		45285D341E003D5B00B1F03F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45285D4B1E003D5B00B1F03F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45285D561E003D5B00B1F03F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		45285D2E1E003D5B00B1F03F = {
+			isa = PBXGroup;
+			children = (
+				45285D391E003D5B00B1F03F /* KingsApp */,
+				45285D511E003D5B00B1F03F /* KingsAppTests */,
+				45285D5C1E003D5B00B1F03F /* KingsAppUITests */,
+				45285D381E003D5B00B1F03F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		45285D381E003D5B00B1F03F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				45285D371E003D5B00B1F03F /* KingsApp.app */,
+				45285D4E1E003D5B00B1F03F /* KingsAppTests.xctest */,
+				45285D591E003D5B00B1F03F /* KingsAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		45285D391E003D5B00B1F03F /* KingsApp */ = {
+			isa = PBXGroup;
+			children = (
+				45285D3A1E003D5B00B1F03F /* AppDelegate.swift */,
+				45285D3C1E003D5B00B1F03F /* ViewController.swift */,
+				45285D3E1E003D5B00B1F03F /* Main.storyboard */,
+				45285D441E003D5B00B1F03F /* Assets.xcassets */,
+				45285D461E003D5B00B1F03F /* LaunchScreen.storyboard */,
+				45285D491E003D5B00B1F03F /* Info.plist */,
+				45285D411E003D5B00B1F03F /* KingsApp.xcdatamodeld */,
+			);
+			path = KingsApp;
+			sourceTree = "<group>";
+		};
+		45285D511E003D5B00B1F03F /* KingsAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				45285D521E003D5B00B1F03F /* KingsAppTests.swift */,
+				45285D541E003D5B00B1F03F /* Info.plist */,
+			);
+			path = KingsAppTests;
+			sourceTree = "<group>";
+		};
+		45285D5C1E003D5B00B1F03F /* KingsAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				45285D5D1E003D5B00B1F03F /* KingsAppUITests.swift */,
+				45285D5F1E003D5B00B1F03F /* Info.plist */,
+			);
+			path = KingsAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		45285D361E003D5B00B1F03F /* KingsApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45285D621E003D5B00B1F03F /* Build configuration list for PBXNativeTarget "KingsApp" */;
+			buildPhases = (
+				45285D331E003D5B00B1F03F /* Sources */,
+				45285D341E003D5B00B1F03F /* Frameworks */,
+				45285D351E003D5B00B1F03F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KingsApp;
+			productName = KingsApp;
+			productReference = 45285D371E003D5B00B1F03F /* KingsApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		45285D4D1E003D5B00B1F03F /* KingsAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45285D651E003D5B00B1F03F /* Build configuration list for PBXNativeTarget "KingsAppTests" */;
+			buildPhases = (
+				45285D4A1E003D5B00B1F03F /* Sources */,
+				45285D4B1E003D5B00B1F03F /* Frameworks */,
+				45285D4C1E003D5B00B1F03F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45285D501E003D5B00B1F03F /* PBXTargetDependency */,
+			);
+			name = KingsAppTests;
+			productName = KingsAppTests;
+			productReference = 45285D4E1E003D5B00B1F03F /* KingsAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		45285D581E003D5B00B1F03F /* KingsAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45285D681E003D5B00B1F03F /* Build configuration list for PBXNativeTarget "KingsAppUITests" */;
+			buildPhases = (
+				45285D551E003D5B00B1F03F /* Sources */,
+				45285D561E003D5B00B1F03F /* Frameworks */,
+				45285D571E003D5B00B1F03F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45285D5B1E003D5B00B1F03F /* PBXTargetDependency */,
+			);
+			name = KingsAppUITests;
+			productName = KingsAppUITests;
+			productReference = 45285D591E003D5B00B1F03F /* KingsAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		45285D2F1E003D5B00B1F03F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = HuZhaoLiang;
+				TargetAttributes = {
+					45285D361E003D5B00B1F03F = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					45285D4D1E003D5B00B1F03F = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 45285D361E003D5B00B1F03F;
+					};
+					45285D581E003D5B00B1F03F = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 45285D361E003D5B00B1F03F;
+					};
+				};
+			};
+			buildConfigurationList = 45285D321E003D5B00B1F03F /* Build configuration list for PBXProject "KingsApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 45285D2E1E003D5B00B1F03F;
+			productRefGroup = 45285D381E003D5B00B1F03F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				45285D361E003D5B00B1F03F /* KingsApp */,
+				45285D4D1E003D5B00B1F03F /* KingsAppTests */,
+				45285D581E003D5B00B1F03F /* KingsAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		45285D351E003D5B00B1F03F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45285D481E003D5B00B1F03F /* LaunchScreen.storyboard in Resources */,
+				45285D451E003D5B00B1F03F /* Assets.xcassets in Resources */,
+				45285D401E003D5B00B1F03F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45285D4C1E003D5B00B1F03F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45285D571E003D5B00B1F03F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		45285D331E003D5B00B1F03F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45285D3D1E003D5B00B1F03F /* ViewController.swift in Sources */,
+				45285D431E003D5B00B1F03F /* KingsApp.xcdatamodeld in Sources */,
+				45285D3B1E003D5B00B1F03F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45285D4A1E003D5B00B1F03F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45285D531E003D5B00B1F03F /* KingsAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45285D551E003D5B00B1F03F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45285D5E1E003D5B00B1F03F /* KingsAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		45285D501E003D5B00B1F03F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45285D361E003D5B00B1F03F /* KingsApp */;
+			targetProxy = 45285D4F1E003D5B00B1F03F /* PBXContainerItemProxy */;
+		};
+		45285D5B1E003D5B00B1F03F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45285D361E003D5B00B1F03F /* KingsApp */;
+			targetProxy = 45285D5A1E003D5B00B1F03F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		45285D3E1E003D5B00B1F03F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45285D3F1E003D5B00B1F03F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		45285D461E003D5B00B1F03F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45285D471E003D5B00B1F03F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		45285D601E003D5B00B1F03F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		45285D611E003D5B00B1F03F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		45285D631E003D5B00B1F03F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KingsApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TolkienCode.KingsApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		45285D641E003D5B00B1F03F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KingsApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TolkienCode.KingsApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		45285D661E003D5B00B1F03F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KingsAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TolkienCode.KingsAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KingsApp.app/KingsApp";
+			};
+			name = Debug;
+		};
+		45285D671E003D5B00B1F03F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KingsAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TolkienCode.KingsAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KingsApp.app/KingsApp";
+			};
+			name = Release;
+		};
+		45285D691E003D5B00B1F03F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = KingsAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TolkienCode.KingsAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = KingsApp;
+			};
+			name = Debug;
+		};
+		45285D6A1E003D5B00B1F03F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = KingsAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TolkienCode.KingsAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = KingsApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		45285D321E003D5B00B1F03F /* Build configuration list for PBXProject "KingsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45285D601E003D5B00B1F03F /* Debug */,
+				45285D611E003D5B00B1F03F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45285D621E003D5B00B1F03F /* Build configuration list for PBXNativeTarget "KingsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45285D631E003D5B00B1F03F /* Debug */,
+				45285D641E003D5B00B1F03F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		45285D651E003D5B00B1F03F /* Build configuration list for PBXNativeTarget "KingsAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45285D661E003D5B00B1F03F /* Debug */,
+				45285D671E003D5B00B1F03F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		45285D681E003D5B00B1F03F /* Build configuration list for PBXNativeTarget "KingsAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45285D691E003D5B00B1F03F /* Debug */,
+				45285D6A1E003D5B00B1F03F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		45285D411E003D5B00B1F03F /* KingsApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				45285D421E003D5B00B1F03F /* KingsApp.xcdatamodel */,
+			);
+			currentVersion = 45285D421E003D5B00B1F03F /* KingsApp.xcdatamodel */;
+			path = KingsApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 45285D2F1E003D5B00B1F03F /* Project object */;
+}
