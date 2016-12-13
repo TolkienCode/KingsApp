@@ -196,6 +196,7 @@
 				TargetAttributes = {
 					45285D361E003D5B00B1F03F = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = N7889B7KPX;
 						ProvisioningStyle = Automatic;
 					};
 					45285D4D1E003D5B00B1F03F = {
@@ -416,6 +417,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = N7889B7KPX;
 				INFOPLIST_FILE = KingsApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = TolkienCode.KingsApp;
@@ -428,6 +430,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = N7889B7KPX;
 				INFOPLIST_FILE = KingsApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = TolkienCode.KingsApp;
